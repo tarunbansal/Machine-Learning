@@ -1,2 +1,3 @@
 # Generalized Linear Model (Poisson Distribution) for handwriting recognition.
 The image on the left shows a handwritten digit. The image on the right is a simulation of a low-photon count observation of this image (as though we took a picture of the digit in a very dark room). Comparing the two images, you might be able to make out the digits pattern in the image of photon counts, but alone the image on the right probably isn’t recognizable. In this problem, we will use the GLM developed above to estimate the original image from the count data.
+![alt text](https://github.com/tarunbansal/Machine-Learning/blob/master/Handwriting/img/seven.png)![alt text](https://github.com/tarunbansal/Machine-Learning/blob/master/Handwriting/img/count.png)
