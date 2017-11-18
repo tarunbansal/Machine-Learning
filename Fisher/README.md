@@ -2,6 +2,7 @@
 
 In 1936 Ronald Fisher published a famous paper on classification titled “The use of multiple measurements in taxonomic problems.”  In the paper, Fisher study the problem of classifying iris flowers based on measurements of the sepal and petal widths and lengths, depicted in the image below.
 ![alt text](https://github.com/tarunbansal/Machine-Learning/blob/master/Fisher/img/fisher.png)
+
 Fisher’s dataset is available in Matlab (fisheriris.mat) and is widely available on the web(e.g., Wikipedia).  The dataset consists of 50 examples of three types of iris flowers.  The sepaland petal measurements can be used to classify the examples into the three types of flowers.
 
 We write a Matlab program leastsq.m to “train” a classifier using Least Sqares based on 40 labeled examples of each of the three flower types and then test the performance of the classifier using the remaining 10 examples from each type. Then we repeat this with many different randomly chosen subsets of training and test. The average test error (number of mistakes divided by 30) is **0.0387**
